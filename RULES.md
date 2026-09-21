@@ -13,3 +13,6 @@ This project intentionally has no data access and no domain context.
 ## Isolation rule
 
 Do not add `databases`, `agent/mcps`, business documentation, semantic mappings, examples containing answers, or skills to this repository. Any such addition changes the condition and requires protocol review.
+
+## First-turn response requirement
+Always answer the user's question in the current response and provide every requested field; if data is unavailable, state that explicitly without inventing values or deferring the answer to a follow-up.
